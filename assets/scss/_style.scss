@@ -1,0 +1,35 @@
+body{
+    background-color: #1B61D1;
+    .todo-container{
+        display: flex;
+        justify-content: center;
+
+        .todo-box{
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 5px;
+            form{
+                display: flex;
+                .btn{
+                    margin-left: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+.todo-list-item{
+    background-color: #c1e4e3;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .remove-btn{
+        background-color: #1921AB;
+        color: #fff;
+    }
+}
